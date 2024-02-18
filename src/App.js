@@ -15,6 +15,7 @@ function App() {
   const sendMsg = () => {
     socket.emit("msg", "This is msg");
   };
+  // body
   return (
     <div className="App">
       <button onClick={sendMsg}>Send Message</button>
